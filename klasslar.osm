@@ -1,0 +1,30 @@
+klass Kordinat {
+
+    joy x;
+    joy y; 
+
+    funksiya init(a,b) {
+        shu.x = a;
+        shu.y = b;
+        qaytar shu;
+    } 
+
+    funskiya korsat() {
+        Tizim.yoz(shu.matnga());
+    }
+
+    funksiya siljit(x,y) {
+        shu.x = shu.x + x;
+        shu.y = shu.y + y;
+    }
+
+    funksiya matnga() {
+        qaytar tahrirla("(",shu.x,";",shu.y,")");
+    }
+}
+
+funksiya asosiy() {
+    yoz("Klasslar bilan sinab ko'ramiz!");
+    joy nuqta = Kordinat(2.5,5);
+    nuqta.korsat();
+}
