@@ -1,5 +1,5 @@
 funksiya asosiy() {
     yoz("Ismingiz nima?");
     joy ism = oqi();
-    yoz("Demak, sizningi ismingiz ", ism);
+    yoz("Salom, ",ism);
 }
