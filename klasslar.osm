@@ -1,30 +1,24 @@
-klass Kordinat {
+klass Odam {
 
-    joy x;
-    joy y; 
+    joy ism;
+    joy familiya; 
 
-    funksiya init(a,b) {
-        shu.x = a;
-        shu.y = b;
+    funksiya yarat(i, f) {
+        shu.ism = i;
+        shu.familiya = f;
         qaytar shu;
-    } 
+    }
 
-    funskiya korsat() {
+    funksiya korsat() {
         Tizim.yoz(shu.matnga());
     }
 
-    funksiya siljit(x,y) {
-        shu.x = shu.x + x;
-        shu.y = shu.y + y;
-    }
-
     funksiya matnga() {
-        qaytar tahrirla("(",shu.x,";",shu.y,")");
+        qaytar tahrirla("Shu odamning ismi ", shu.ism, " va familiyasi ", shu.familiya, "!");
     }
 }
 
 funksiya asosiy() {
-    yoz("Klasslar bilan sinab ko'ramiz!");
-    joy nuqta = Kordinat(2.5,5);
-    nuqta.korsat();
+    joy demo = Odam("UwUssimo", "Robinson");
+    demo.korsat();
 }
