@@ -1,2 +1,2 @@
 # osmon-examples
-The examples of osmon programming language 
+The examples of Osmon programming language 
