@@ -5,7 +5,7 @@ funksiya faktorial(n) {
     qaytar faktorial(n - 1) * n;
 } 
 
-klass Faktorial {
+guruh Faktorial {
     funksiya yarat(v) {
         shu._v = v;
         qaytar shu;
